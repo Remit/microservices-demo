@@ -6,7 +6,8 @@ metadata:
 spec:
   selector:
     matchLabels:
-      name: monitoring-grafana
+      task: monitoring
+      k8s-app: grafana
   replicas: 1
   template:
     metadata:

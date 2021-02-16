@@ -6,7 +6,8 @@ metadata:
 spec:
   selector:
     matchLabels:
-      name: heapster
+      task: monitoring
+      k8s-app: heapster
   replicas: 1
   template:
     metadata:

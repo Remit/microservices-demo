@@ -6,7 +6,8 @@ metadata:
 spec:
   selector:
     matchLabels:
-      name: monitoring-influxdb
+      task: monitoring
+      k8s-app: influxdb
   replicas: 1
   template:
     metadata:
